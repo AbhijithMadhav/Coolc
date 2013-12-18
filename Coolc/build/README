@@ -1,0 +1,13 @@
+Makefile targets
+
+coolc: Builds the coolc compiler which includes all self made components
+
+testlexer: Tests the self made lexer
+
+testparser: Tests the self made parser which uses the self made lexer
+
+testsemant: Tests the self made semant which used the self made lexer and parser
+
+testcoolc: Tests the self made cgen which uses the self made lexer, parser and semant
+
+dotest: Tests the self made lexer, self made parser which uses the self made lexer, self made semant whcih uses the self made lexer and parser, self made cgen which uses the self made lexer, parser and semant.

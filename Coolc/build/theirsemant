@@ -1,0 +1,3 @@
+#!/bin/sh
+# This is to be used from semant directory only
+../bin/lexer $* | ../bin/parser | ../bin/semant
